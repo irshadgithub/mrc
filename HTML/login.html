@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,500" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+<!--        <link rel="shortcut icon" type="image/x-icon" href="#" />-->
+        <title>MRC | Login</title>
+    </head>
+    <body class="">
+
+        
+        <div class="wrapper sticky-footer">
+            <div class="Container">
+                <div class="">
+                    <div class="layout-box" style="z-index: 10;">
+
+                        <!--row-->
+                        <div class="row no-gutters">
+                            
+                            <div class="form-group col-md-12 col-12">
+                                <br> <br>
+                                
+                                <div class="inner-data p-4 ">
+                                    <div class="mb-3 "><img class=" login-brand-logo" src="../Portal/img/Login/RMC-logo.png"  ></div>
+                                    
+                                    <div class="form-group mb-3">
+                                        <label class="label-text">Property Address Number<sup>*</sup></label>
+                                        <input type="email" tabindex="0"  class="bg-light form-control" placeholder="Enter Property Address Number"  id="txtEmail">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label class="label-text">Property Street Name<sup>*</sup></label>
+                                        <input type="password" tabindex="0" class="form-control bg-light" placeholder="Enter Street Name" data-placement="top" data-toggle="popover" data-trigger="focus" data-content="Password must contain at least eight characters, including uppercase, lowercase letters, special character and numbers" >
+
+                                    </div>
+                                    <div class="form-row mb-3">
+
+                                        <div class="col-md-6 text-align">
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" data-backdrop="static" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" style="display: none;" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenterTitle">Forgot Password</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">×</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body text-left">
+                                                            <label class="label-text">Email Address<sup>*</sup></label>
+                                                            <input type="email" class="form-control bg-light" placeholder="Enter Your Email Address" style="height: calc(1.5em + 1.5rem + 2px);">
+                                                        </div>
+                                                        <div class="modal-footer">
+
+                                                            <input type="submit" class="btn btn-primary px-4 py-3" value="Submit">
+                                                            <input type="submit" class="btn btn-secondary px-4 py-3" data-dismiss="modal" value="Cancel">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-row mt-2">
+                                        <div class="form-group col-md-6 text-center">
+                                            <a href="../Portal/project.html"  class="btn btn-primary py-3 w-100 label-text">Log In</a>
+                                        </div>
+                                        <div class="form-group col-md-6 text-center">
+                                            <a href="#" class="btn btn-secondary py-3 w-100 label-text">Cancel</a>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!--row-->
+                    </div>
+                </div><!-- Container -->
+            </div>
+        </div><!-- Wrapper -->
+
+
+
+
+        <!--------------------------------------- JS And Jquery -------------------------------------------->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar, #content').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+
+
+
+
+            });
+
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+
+            $(function () {
+                $('[data-toggle="popover"]').popover()
+            })
+            $('.popover-dismiss').popover({
+                trigger: 'focus'
+            })
+
+            $(document).click(function(event) {
+                $(event.target).closest(".navbar").length || $(".navbar-collapse.show").length && $(".navbar-collapse.show").collapse("hide")
+            });
+
+
+           
+
+
+
+
+        </script>
+
+    </body>
+</html>
+

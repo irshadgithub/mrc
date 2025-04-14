@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../Portal/css/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,500" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+
+        <link rel="shortcut icon" type="image/x-icon" href="../Portal/img/favicon.png" />
+        <title>RMC | Project Details</title>
+    </head>
+    <body class="">
+
+        <!--Navigation Start-->
+        <nav class="navbar navbar-expand-lg fixed-top py-0" style="background-color: white;  box-shadow: 0 2px 2px rgba(0,0,0,0.05), 0 2px 2px  rgba(0,0,0,0.05);">
+<!--
+            <button class="navbar-toggler" data-toggle="collapse" id="sidebarCollapse">
+                <i class="fas fa-align-justify"></i>
+            </button>
+-->
+            <a href="#" class="navbar-brand " >
+                <img src="img/Login/RMC-logo.png" class="d-inline ml-2 p-2" alt="MMG-logo"> </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <i class="material-icons">more_vert</i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto ">
+
+
+<!--
+                    <li class="navbar-item mt-4">
+                        <a href="#" class="nav-link " id="" >Home</a>
+                    </li>
+
+                    <li class="navbar-item active mt-4">
+                        <a href="#" class="nav-link active" id="">Projects</a>
+                    </li>
+-->
+
+
+
+
+                    <div class="border-right mobile-hide"></div>
+                    <li class=" navbar-item nav-user dropdown mobile-hide"  >
+                        <a data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="content: none;" class="profile-circle ">
+                            <p class="profile-circle-inner">AY</p>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-side pb-0" style="min-width: 220px">
+<!--                            <a class="dropdown-item py-2" href="../1/my-profile.html"><i class="material-icons">assignment_ind</i>My Profile</a>-->
+<!--                            <a class="dropdown-item py-2" href="../1/change-password.html"><i class="material-icons">lock</i>Change Password</a>-->
+                            <a class="dropdown-item py-2" href="login.html"><i class="material-icons">power_settings_new</i>Logout</a>
+                        </div>
+                    </li>
+
+
+                    <div class="desk-hide">
+<!--
+                        <li class="navbar-item active label-text mr-3 nav-user " >
+                            <a class="nav-link" href="my-profile.html"><i class="material-icons">assignment_ind</i>My Profile</a>
+                        </li>
+                        <li class="navbar-item active label-text mr-3 nav-user " >
+                            <a class="nav-link" href="change_%20password.html"><i class="material-icons">lock</i>Change Password</a>
+                        </li>
+-->
+                        <li class="navbar-item active label-text mr-3 nav-user " >
+                            <a class="nav-link" href="login.html"><i class="material-icons">power_settings_new</i>Logout</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <!--Navigation End-->
+
+        <div class="wrapper">
+            <!-- Sidebar  -->
+
+
+            <!-- Page Content  -->
+            <div class="container">
+                <div class="row no-gutters sticky-footer">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="mt-2">
+                            <div class="inner-data back-box">
+                                <div class="row mb-0">
+                                    <div class="col-md-9">
+                                        <h3 class="mb-1">PROJECT DETAILS</h3>
+                                        <nav aria-label="breadcrumb" class="mobile-hide">
+                                            <ol class="breadcrumb">
+<!--                                                <li class="breadcrumb-item"><a href="#"><small>Home</small></a></li>-->
+                                                <li class="breadcrumb-item"><a href="project.html"><small>Projects</small></a></li>
+
+                                                <li class="breadcrumb-item active" aria-current="page"><small>Kitchen Project Details</small></li>
+                                            </ol>
+                                        </nav>
+                                    </div>
+                                    <div class="col-md-3 text-right mb-0">
+                                        <p class=" mb-0"><b>Financial Status:</b> <span class="badge badge-danger p-2">Payment Due</span><br><a href="#" class="mt-1">View Project location Map</a></p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back-box " >
+                            <div class="inner-data">
+                                <div class="row ">
+                                    <div class="form-group col-md-3">
+                                        <label class="label-text" >Client</label>
+                                        <span class="float-right"><a href="" data-toggle="modal" data-target="#clientdetail">View Client Details</a></span>
+                                        <input type="text" class="form-control" placeholder="David Schrob" readonly  />
+                                    </div>
+
+                                    <!-- Clientdetail Modal Start -->
+                                    <div class="modal" id="clientdetail">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Client Details</h4>
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    <p><b>Client Created: </b>Dec 26 2024</p>
+                                                    <p><b>Address: </b>4057 Aladdin Dr Plano TX 75093</p>
+                                                    <p><b>Phone: </b>817-995-2655</p>
+                                                    <p><b>Email: </b>w.kaneswske@gmail.com</p>
+                                                    <p><b>Lead From: </b>Internet/Web Site/S Media</p>
+                                                </div>
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Clientdetail Modal End -->
+                                    <div class="form-group col-md-3">
+                                        <label class="label-text">Client Type</label>
+                                        <input type="text" class="form-control" placeholder="New"  readonly />
+                                    </div>
+
+                                    <div class="form-group col-md-3">
+                                        <label class="label-text">Project</label>
+                                        <input type="text" class="form-control" placeholder="Attic Conversion"  readonly />
+                                    </div>
+
+                                    <div class="form-group col-md-3">
+                                        <label class="label-text">Project Type</label>
+                                        <input type="text" class="form-control" placeholder="New Constriction" readonly />
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="form-group col-md-6">
+                                        <label class="label-text">Proj Mgr/Sub:</label>
+                                        <input type="text" class="form-control" placeholder="MRC Ward Steve" readonly />
+                                    </div>
+                                    <div class=" form-group col-md-6">
+                                        <label class="label-text">Project Status</label>
+                                        <select class="form-control">
+                                            <option>Meeting</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class=" form-group col-md-12">
+                                        <div class="">
+                                            <label class="label-text">Updates<sup>*</sup></label>
+                                            <textarea class="form-control" rows="3" id="comment" placeholder="Re-considering the project. Needs Rev, Dec 13" readonly></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!--Project Attachments starts-->
+                                <div class="">
+                                    <div class="">
+
+                                        <div class="mb-2 tile-icon">
+                                            <a class="text-decoration-none" data-toggle="collapse" href="#Project Attachments" role="button" aria-expanded="true" aria-controls="companyDetails"><small class="text-primary label-text pl-0">Project Attachments<i class="material-icons text-primary">keyboard_arrow_down</i></small></a>
+                                            <span class="float-right"><a href="" data-toggle="modal" data-target="#uploadfile">Upload File</a></span>
+                                        </div>
+
+
+                                        <!-- Uploadfile Modal Start -->
+                                        <div class="modal" id="uploadfile">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+
+                                                    <!-- Modal Header -->
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title">Upload Files</h4>
+
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    </div>
+
+                                                    <!-- Modal body -->
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="form-group col-lg-12 col-md-12 ">
+                                                                <label class="text-muted">Add your documents here, and you can upload up to 5 files max</label>
+                                                                <a href="#">
+                                                                    <div class="board-activity mt-0 inner-data bg-light text-center" style="">
+                                                                        <label class="label-text "><i class="material-icons mr-2" style="vertical-align: middle;">cloud_upload</i>Upload your file</label>
+                                                                        <label class="d-block">Supported files: .doc, .docx, .pdf, .xlsx</label>
+                                                                    </div>
+                                                                </a>    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer text-right">
+                                                        <div class="form-row">
+                                                            <div class="col-md-6 text-right">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                            </div>
+                                                            <div class="col-md-6 ">
+                                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Uploadfile Modal End -->
+
+                                        <div class="collapse show inner-data border" id="Project Attachments">
+
+                                            <div class="form-row mb-0">
+                                                <div class="col-md-3 mb-0">
+
+
+
+                                                    <p class="back-box inner-data">
+                                                        <span class=""><b>File 1.jpeg</b> <i class="material-icons float-right text-danger">cancel</i></span>
+                                                    </p>
+                                                </div>
+
+                                                <div class="col-md-3 mb-0">
+
+
+
+                                                    <p class="back-box inner-data">
+                                                        <span class=""><b>File 1.jpeg</b> <i class="material-icons float-right text-danger">cancel</i></span>
+                                                    </p>
+                                                </div>
+
+                                                <div class="col-md-3 mb-0">
+
+
+
+                                                    <p class="back-box inner-data">
+                                                        <span class=""><b>File 1.jpeg</b> <i class="material-icons float-right text-danger ">cancel</i></span>
+                                                    </p>
+                                                </div>
+
+                                                <div class="col-md-3 mb-0">
+
+
+
+                                                    <p class="back-box inner-data">
+                                                        <span class=""><b>File 1.jpeg</b> <i class="material-icons float-right text-danger">cancel</i></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Project Attachments end--> 
+
+
+
+
+                                <!--Project History starts-->
+                                <div class="mt-2">
+                                    <div class="">
+
+                                        <div class="mb-2 tile-icon">
+                                            <a class="text-decoration-none" data-toggle="collapse" href="#Project History" role="button" aria-expanded="true" ><small class="text-primary label-text pl-0">Project History<i class="material-icons text-primary">keyboard_arrow_down</i></small></a>
+
+                                        </div>
+
+                                        <div class="collapse show inner-data border" id="Project History">
+                                            <div class="text-muted">
+                                                <p class="mb-0">Re-considering the project. Needs Rev, Dec 13</p>
+                                                <p class="mb-0">Re-considering the project.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Project History end--> 
+
+                                <!--Project Cycle Time starts-->
+                                <div class="mt-2">
+                                    <div class="">
+
+                                        <div class="mb-2 tile-icon">
+                                            <a class="text-decoration-none" data-toggle="collapse" href="#Project Cycle Time" role="button" aria-expanded="true" ><small class="text-primary label-text pl-0">Project Cycle Time<i class="material-icons text-primary">keyboard_arrow_down</i></small></a>
+
+                                        </div>
+
+                                        <div class="collapse show inner-data  alert-warning" id="Project Cycle Time">
+                                            <div class="form-row">
+
+                                                <lable class="mr-3"><b>Days: 365</b></lable>
+                                                <lable class="mr-3"><b>Weeks: 52</b></lable>
+                                                <lable class="mr-3"><b>Months: 12</b></lable>
+                                                <lable class="mr-3"><b>Years: 1</b></lable>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Project Cycle Time end--> 
+
+
+
+
+
+
+                                <!--Financial Status: starts-->
+                                <div class="mt-2">
+                                    <div class="">
+
+
+
+                                        <div class="inner-data border">
+                                            <p class="bg-white mb-0"><b>Financial Status</b> <span class="badge badge-danger float-right p-2">Payment Due</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Financial Status: end--> 
+
+
+
+                                <!--Invoice & Payment History-->
+                                <div class="mt-3">
+                                    <div class="">
+
+                                        <div class="mb-2 form-row tile-icon">
+                                            <div class="col-md-8 col-6">
+                                                <a class="text-decoration-none" data-toggle="collapse" href="#Invoice & Payment History" role="button" aria-expanded="true" aria-controls="companyDetails"><small class="text-primary label-text pl-0">Invoice & Payment History<i class="material-icons text-primary">keyboard_arrow_down</i></small></a></div>
+                                            <div class="col-md-4 col-6 text-right">
+                                                <span class=""><b>Total Amount Due:  $ XX,XXX.XX</b></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="collapse show" id="Invoice & Payment History" >
+
+                                            <div>           
+
+                                                <div class="inner-data border" style="overflow-x: auto; w-100"  >
+                                                    <table class="table table-bordered table-hover table-responsive w-100 d-table mb-0" style="overflow-x: scroll;">
+                                                        <thead class="tablethead">
+                                                            <tr >
+                                                                <th scope="col">Invoice No.</th>
+                                                                <th scope="col">Invoice Date</th>
+                                                                <th scope="col">Invoice Amount ($)</th>
+                                                                <th scope="col">Invoice Description</th>
+
+                                                                <th scope="col">Payment Recd. on</th>
+                                                                <th scope="col">Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="">
+                                                                <td>1</td>
+                                                                <td>Mar 12, 2025</td>
+
+                                                                <td>523</td>
+
+                                                                <td>Lorem Ipsum is simply...</td>
+                                                                <td>-</td>
+
+                                                                <td class=""><span class="badge badge-danger p-2">Due</span></td>
+                                                            </tr>
+                                                            <tr class="" >
+                                                                <td>2</td>
+                                                                <td>Feb 25, 2025</td>
+
+                                                                <td>52</td>
+
+                                                                <td>Lorem Ipsum is simply...</td>
+                                                                <td>March 1, 2025</td>
+
+                                                                <td><span class="badge badge-success  p-2">Paid</span></td>
+                                                            </tr>
+
+
+                                                        </tbody>
+
+                                                    </table>
+                                                    <div class="border bg-light py-2 px-4">
+                                                        <label class="mb-0">1 - 10 of 30 ( 1 selected )</label>	
+                                                        <div class="float-right">
+                                                            <a href="#" class="text-muted"><i class="material-icons icon-buttons" style="vertical-align: middle;">keyboard_arrow_left</i></a>
+                                                            <a href="#" class="text-success font-weight-bold"><span class="mr-3 h6">1</span></a>
+                                                            <a href="#"><span class="mr-3 h6 text-dark">2</span></a>
+                                                            <a href="#"><span class="mr-0 h6 text-dark">3</span></a>
+                                                            <a href="#" class="text-dark"><i class="material-icons icon-buttons" style="vertical-align: middle;">keyboard_arrow_right</i></a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Invoice & Payment History end--> 
+
+
+
+
+
+                            </div>
+
+                            <hr class="my-0">
+
+
+
+                            <div class="inner-data bg-light ">
+
+                                <div class="mb-2 form-row tile-icon">
+                                    <div class="col-md-8 col-6">
+                                    </div>
+                                    <div class="col-md-4 col-6 text-right">
+                                        <a href="make-payment.html" class="btn btn-primary px-4 py-2 p-3 mr-2 ">Make Payment</a>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div><!-- Content -->
+
+
+        </div><!-- Wrapper -->
+
+        <footer class="mb-0 w-100" style="z-index: 9999; bottom: 0; ">
+            <div class="footer-bottom inner-data ">
+                <div class="form-row">
+
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 footer-links text-center">
+                        <div class="desk-hide mt-2"></div>
+                        <p class="mb-0"><small>Copyright © 2025 MRC. All rights reserved</small></p>
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
+
+        <!--------------------------------------- JS And Jquery -------------------------------------------->
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar, #content').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
+        <script>
+            $(document).click(function(assignment) {
+                $(assignment.target).closest(".navbar").length || $(".navbar-collapse.show").length && $(".navbar-collapse.show").collapse("hide")
+            });
+        </script>
+
+    </body>
+</html>
+
