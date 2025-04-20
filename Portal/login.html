@@ -31,10 +31,10 @@
                         <div class="row no-gutters">
                             
                             <div class="form-group col-md-12 col-12">
-                                <br> <br>
+                                <br> 
                                 
                                 <div class="inner-data p-4 ">
-                                    <div class="mb-3 "><img class=" login-brand-logo" src="../Portal/img/Login/RMC-logo.png"  ></div>
+                                    <div class="mb-3 "><img class="text-center login-logo" src="../Portal/img/Login/RMC-logo.png"  ></div>
                                     
                                     <div class="form-group mb-3">
                                         <label class="label-text">Property Address Number<sup>*</sup></label>
@@ -97,53 +97,23 @@
 
 
         <!--------------------------------------- JS And Jquery -------------------------------------------->
+        
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-        <!-- jQuery Custom Scroller CDN -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $("#sidebar").mCustomScrollbar({
-                    theme: "minimal"
-                });
-
-                $('#sidebarCollapse').on('click', function () {
-                    $('#sidebar, #content').toggleClass('active');
-                    $('.collapse.in').toggleClass('in');
-                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-                });
-
-
-
-
-            });
-
+        
+        <script>
             $(function () {
                 $('[data-toggle="tooltip"]').tooltip()
             })
-
-            $(function () {
-                $('[data-toggle="popover"]').popover()
-            })
-            $('.popover-dismiss').popover({
-                trigger: 'focus'
-            })
-
-            $(document).click(function(event) {
-                $(event.target).closest(".navbar").length || $(".navbar-collapse.show").length && $(".navbar-collapse.show").collapse("hide")
+        </script>
+        <script>
+            $(document).click(function(assignment) {
+                $(assignment.target).closest(".navbar").length || $(".navbar-collapse.show").length && $(".navbar-collapse.show").collapse("hide")
             });
-
-
-           
-
-
-
-
         </script>
 
     </body>

@@ -5,6 +5,8 @@ const fileUpload = require('express-fileupload');
 const authRoutes = require('./routes/auth');
 const reportRoutes = require('./routes/reports');
 const uploadRoutes = require('./routes/upload');
+const projectDetails = require('./routes/projectDetails');
+const projectList = require('./routes/projectList');
 
 dotenv.config();
 
@@ -18,6 +20,9 @@ app.use(fileUpload());
 app.use('/api/auth', authRoutes);
 app.use('/api/reports', reportRoutes);
 app.use('/api/upload', uploadRoutes);
+app.use('/api/project_details', projectDetails);
+app.use('/api/project_list', projectList);
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
